@@ -12,7 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .extract(['vue', 'vue-router', 'axios', 'lodash']);
+   .extract(['vue', 'vue-router', 'axios', 'lodash'])
+   .sourceMaps();
 
 mix.sass('resources/assets/sass/app.scss', 'public/css');
 

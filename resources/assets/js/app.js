@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import Layout from './views/Layout.vue';
 import routes from './utils/routes.js';
 import axios from 'axios';
+import './components/imports';
+
 
 let token                                                = document.head.querySelector('meta[name="csrf-token"]');
 window.axios                                             = axios;

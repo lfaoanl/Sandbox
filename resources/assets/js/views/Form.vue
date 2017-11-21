@@ -1,13 +1,21 @@
 <template>
-	<h1 @click="message = 'Go PUKE!!1'">{{ message }}</h1>
+	<div>
+		<f-input :name="formless"/>
+		
+		<f-form action="/form/test">
+			<f-input name="form"/>
+		</f-form>
+	</div>
 </template>
 
 <script>
 	export default {
 		data() {
 			return {
-				message: 'Hoi brakke Shirley!'
+				formless: ''
 			}
 		},
+		mounted() {
+		}
 	}
 </script>
