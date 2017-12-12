@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5eba86da256ddeb8084c32d3d10e18d3",
+    "content-hash": "9fe2976dbc428fddaaa18bc5b2a43ba3",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -958,6 +958,22 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "phpclasses/email-scraper",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://www.phpclasses.org/install/package/email-scraper.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "email.scraper.php"
+                ]
+            }
         },
         {
             "name": "psr/container",
